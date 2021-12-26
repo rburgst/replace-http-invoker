@@ -1,0 +1,15 @@
+allprojects {
+    group = "eu.emundo"
+    version = "1.0.0"
+
+    buildscript {
+        repositories {
+            mavenLocal()
+            mavenCentral()
+        }
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
